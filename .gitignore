@@ -1,0 +1,60 @@
+# ── 模型权重 & 数据集 ───────────────────────────────────────────────
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.gguf
+*.ckpt
+*.h5
+*.pkl
+*.npz
+*.npy
+
+# ── HuggingFace / tiktoken 缓存 ─────────────────────────────────────
+.cache/
+*.tiktoken
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.Python
+
+# ── 虚拟环境 ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter Notebook ────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── 日志 & 临时文件 ─────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+patch_*.py
+
+# ── IDE ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Windows ─────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── macOS ────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
